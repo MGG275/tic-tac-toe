@@ -1,0 +1,49 @@
+#div-winner{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	background-color: rgb(81, 230, 180);
+	padding: 30px 50px;
+	border: 5px solid rgb(74, 112, 112);
+	border-radius: 15px;
+}
+h1{
+	color: #123068;
+	font-size: 4rem;
+}
+button {
+	color: rgb(18, 48, 104);
+	padding: 8px 25px;
+	border: solid 3px rgb(74, 112, 112);
+	border-radius: 5px;
+	font-size: 2rem;
+	font-weight: bold;
+	background-color: #bbcada;
+	margin-top: 20px ;
+}
+button:hover{
+	padding: 9px 26px;
+	cursor: pointer;
+}
+@media(max-width: 600px){
+	#div-winner {
+		padding: 20px 40px;
+	}
+	h1{
+		font-size: 3rem;
+	}
+	
+}
+@media(max-width: 425px){
+	#div-winner {
+		padding: 15px 35px;
+	}
+	h1{
+		font-size: 2rem;
+	}
+	button {
+	padding: 7px 18px;
+	font-size: 1.5rem;
+	}
+}

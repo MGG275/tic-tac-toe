@@ -1,0 +1,19 @@
+.board {
+  width: 70vh;
+  height: 70vh;
+  display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+@media(max-width: 600px){
+	.board {
+		width: 70%;
+		height: 60%;
+	}
+}
+@media(max-width: 425px){
+	.board {
+		height: 50%;
+	}
+}

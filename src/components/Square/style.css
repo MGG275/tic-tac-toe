@@ -1,0 +1,42 @@
+.board div {
+	width: 30%;
+	height: 30%;
+	display: flex;
+	background-color: white;
+	border: 2px solid black;
+	font-size: 8.5rem;
+	justify-content: center;
+  align-items: center;
+}
+#board div:hover {
+	cursor: pointer;
+}
+.X{
+	color: rgb(177, 34, 34);
+}
+.O{
+	color: #103374;
+}
+#case0, #case1, #case2{
+	border-top: transparent;
+}
+#case0, #case3, #case6{
+	border-left: transparent;
+}
+#case2, #case5, #case8 {
+	border-right: transparent;
+}
+#case6, #case7, #case8 {
+	border-bottom: transparent;
+}
+
+@media(max-width: 600px){
+	.board div {
+		font-size: 7rem;
+	}
+}
+@media(max-width: 425px){
+	.board div {
+		font-size: 5rem ;
+	}
+}
