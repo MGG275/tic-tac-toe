@@ -9,7 +9,6 @@ function App() {
   const [turn, setTurn] = useState("X");
 
   const handleClic = (i) => {
-   
     let copyArray = [...squareValues];
 
     if (copyArray[i] === "" && winner === null) {
