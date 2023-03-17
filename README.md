@@ -1,3 +1,3 @@
 # React-App
 
-https://mgg-tic-tac-toe.netlify.app/
+https://mgg-tic-tac-toe-game.netlify.app/
